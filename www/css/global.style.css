@@ -2161,8 +2161,10 @@ h1 .button{
     margin: 3%;
 }
 
-
+label.error {
+    display: none !important;
+}
 
 .form-element.error {
-    border: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
 }
